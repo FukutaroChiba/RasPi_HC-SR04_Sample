@@ -209,6 +209,7 @@ void ctrlc_handler(int s)
   global_done = 1;
 }
 
+/*
 void main(int argc, char **argv)
 {
   if(argc != 6)
@@ -236,3 +237,4 @@ void main(int argc, char **argv)
     disable_advertising();
   }
 }
+*/

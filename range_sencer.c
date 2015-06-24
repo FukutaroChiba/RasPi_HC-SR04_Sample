@@ -51,6 +51,7 @@ int main(void) {
 
   int rc = enable_advertising(advInterval, uuid, major, minor, rssi); 
   return 1;
+/*
   printf("%s\n", "start");
   if(wiringPiSetupGpio() == -1) return 1;
 
@@ -65,4 +66,5 @@ int main(void) {
       return 0;
     }
   }
+*/
 }
